@@ -1,0 +1,73 @@
+body {
+    background-color:#fcf4da;
+    font-size:150%;
+    text-align:center;
+}
+nav {
+    background-color: #db9786;
+    background-image: linear-gradient(to right, #db9786,#F7AF9D, #db9a8a);
+    border-radius: 25px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: #4d2e19;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    margin:5px;
+}
+nav a:hover {
+    background-color: #f6b5a5;
+    border-radius:15px;
+}
+nav a.active {
+    background-color: #e19b89;
+    font-weight: bold;
+    border-radius:15px;
+    margin:5px;
+}
+h1 {
+    color: #64442e;
+    font-family: "sauna-new", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+h2 {
+    font-family: "sauna-new", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3 {
+    font-family: "sauna-mono", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h4 {
+    font-family: "sauna-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "sauna-small-caps-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    font-family: "sauna-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.neon {
+    text-shadow: 
+                /* Inner, tight white glow for core intensity */
+        0 0 5px #edd7d7,
+        0 0 10px #ff6e6e,
+                /* Middle layers: primary neon color (e.g., Cyan/Blue) */
+        0 0 20px #df3a3a
+}
