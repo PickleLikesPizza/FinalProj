@@ -79,6 +79,13 @@ footer a {
     display: block;
     margin:5px;
 }
+footer h2 {
+    color: #4d2e19;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin:0px;
+}
 footer ul {
     list-style-type: none;
     margin: 0;
