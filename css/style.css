@@ -93,14 +93,23 @@ footer ul {
     display: flex;
     justify-content: center;
 }
+.carousel-text {
+    font-size: 20px;
+    color: #f7f0ec;
+    font-family: "sauna-mono", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .image {
     border-radius:25px;
-    border-style:solid;
+    border-style:double;
+    outline: 6px solid #e6e1da;
+    outline-offset: -10px;
     border-color:#a7ac9b;
-    border-width:10px;
+    border-width:14px;
     object-fit:cover;
     max-width:480px;
-
+    overflow: hidden;
 }
 .neon {
     text-shadow:
