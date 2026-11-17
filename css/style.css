@@ -149,6 +149,29 @@ footer ul {
   animation-range: entry 0% cover 100%;
   animation-fill-mode: both;
 }
+.menu-item {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.menu-item:hover {
+    color: rgb(197, 35, 35);
+    text-decoration: underline;
+}
+.anim1-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    grid-row: 2;
+}
+
+.anim1-content.show {
+    opacity: 1;
+    visibility: visible;
+}
 @keyframes fadeIn {
   0% {
     opacity: 15%;
